@@ -7,6 +7,7 @@ import Process from "./components/Process"
 import Packages from "./components/Packages"
 import Projects from "./components/Projects"
 import CTA from "./components/CTA"
+import Contact from "./components/Contact"
 import Newsletter from "./components/Newsletter"
 import Footer from "./components/Footer"
 
@@ -22,6 +23,7 @@ function App() {
         <Packages />
         <Projects />
         <CTA />
+        <Contact />
         {/* <Newsletter /> */}
       </main>
       <Footer />
