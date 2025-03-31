@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
@@ -34,7 +34,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/placeholder.svg" alt="IT Professional" className="rounded-lg" />
+            <img src="https://i.pinimg.com/474x/90/56/d3/9056d37cff0fcead7492b2a4fb4b01cf.jpg" alt="IT Professional" className="rounded-lg" />
           </div>
         </div>
       </div>

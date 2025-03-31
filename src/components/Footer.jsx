@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-col">
             <div className="logo">
-              <a href="/">
+              <a href="#home">
                 <span className="logo-text">
                   Future<span className="logo-accent">Vision IT</span>
                 </span>
@@ -86,22 +86,22 @@ export default function Footer() {
             <h3>Quick Links</h3>
             <ul className="footer-links">
               <li>
-                <a href="/">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a href="#about">About Us</a>
               </li>
               <li>
-                <a href="/services">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="/packages">Packages</a>
+                <a href="#packages">Packages</a>
               </li>
               <li>
-                <a href="/projects">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -110,25 +110,22 @@ export default function Footer() {
             <h3>Services</h3>
             <ul className="footer-links">
               <li>
-                <a href="/services/software-development">Software Development</a>
+                <a href="#software-development">Software Development</a>
               </li>
               <li>
-                <a href="/services/cloud-infrastructure">Cloud Infrastructure</a>
+                <a href="#cloud-infrastructure">Cloud Infrastructure</a>
               </li>
               <li>
-                <a href="/services/cybersecurity">Cybersecurity</a>
+                <a href="#cybersecurity">Cybersecurity</a>
               </li>
               <li>
-                <a href="/services/it-consulting">IT Consulting</a>
+                <a href="#it-consulting">IT Consulting</a>
               </li>
               <li>
-                <a href="/services/web-hosting">Web Hosting</a>
+                <a href="#web-hosting">Web Hosting</a>
               </li>
               <li>
-                <a href="/services/branding">Branding & Design</a>
-              </li>
-              <li>
-                <a href="/services/managed-services">Managed IT Services</a>
+                <a href="#branding">Branding & Design</a>
               </li>
             </ul>
           </div>
@@ -151,7 +148,7 @@ export default function Footer() {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span>+27 (83) 123-4567</span>
+                <span>+1 (555) 123-4567</span>
               </li>
               <li>
                 <svg
@@ -187,14 +184,14 @@ export default function Footer() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                <span>123 Future vision Street, JHB 2001</span>
+                <span>123 Tech Street, Silicon Valley, CA 94025</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} TechVision. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Future Vision IT. All rights reserved.</p>
         </div>
       </div>
     </footer>

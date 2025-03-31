@@ -1,12 +1,20 @@
+import SoftwareDevelopment from "./services/SoftwareDevelopment"
+import CloudInfrastructure from "./services/CloudInfrastructure"
+import Cybersecurity from "./services/Cybersecurity"
+import ITConsulting from "./services/ITConsulting"
+import WebHosting from "./services/WebHosting"
+import Branding from "./services/Branding"
+
 export default function Services() {
   return (
     <section className="services-section" id="services">
       <div className="container">
-        <h2>Know About Our Best Services</h2>
+        <h2>Our Professional IT Services</h2>
         <p className="section-subtitle">
           Innovative solutions, seamless integration, and reliable support services. We help businesses transform their
           digital landscape with cutting-edge technology.
         </p>
+
         <div className="services-grid">
           <div className="service-card">
             <div className="service-icon">
@@ -25,9 +33,9 @@ export default function Services() {
                 <polyline points="8 6 2 12 8 18"></polyline>
               </svg>
             </div>
-            <h3>Custom Software Development</h3>
+            <h3>Software Development</h3>
             <p>Tailored solutions designed to meet your specific business requirements</p>
-            <a href="#" className="service-link">
+            <a href="#software-development" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -45,6 +53,7 @@ export default function Services() {
               </svg>
             </a>
           </div>
+
           <div className="service-card">
             <div className="service-icon">
               <svg
@@ -66,7 +75,7 @@ export default function Services() {
             </div>
             <h3>Cloud Infrastructure</h3>
             <p>Scalable and secure cloud solutions to optimize your business operations</p>
-            <a href="#" className="service-link">
+            <a href="#cloud-infrastructure" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -84,6 +93,7 @@ export default function Services() {
               </svg>
             </a>
           </div>
+
           <div className="service-card">
             <div className="service-icon">
               <svg
@@ -102,7 +112,7 @@ export default function Services() {
             </div>
             <h3>Cybersecurity Services</h3>
             <p>Comprehensive security solutions to protect your valuable data and systems</p>
-            <a href="#" className="service-link">
+            <a href="#cybersecurity" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -120,6 +130,7 @@ export default function Services() {
               </svg>
             </a>
           </div>
+
           <div className="service-card">
             <div className="service-icon">
               <svg
@@ -141,7 +152,7 @@ export default function Services() {
             </div>
             <h3>IT Consulting</h3>
             <p>Expert guidance to help you make informed technology decisions</p>
-            <a href="#" className="service-link">
+            <a href="#it-consulting" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -159,6 +170,7 @@ export default function Services() {
               </svg>
             </a>
           </div>
+
           <div className="service-card">
             <div className="service-icon">
               <svg
@@ -179,7 +191,7 @@ export default function Services() {
             </div>
             <h3>Web Hosting</h3>
             <p>Reliable and high-performance hosting solutions for your websites and applications</p>
-            <a href="#" className="service-link">
+            <a href="#web-hosting" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -197,6 +209,7 @@ export default function Services() {
               </svg>
             </a>
           </div>
+
           <div className="service-card">
             <div className="service-icon">
               <svg
@@ -216,7 +229,7 @@ export default function Services() {
             </div>
             <h3>Branding & Design</h3>
             <p>Professional branding services including logo design, business cards, and marketing materials</p>
-            <a href="#" className="service-link">
+            <a href="#branding" className="service-link">
               Learn More
               <svg
                 className="link-icon"
@@ -235,8 +248,19 @@ export default function Services() {
             </a>
           </div>
         </div>
+
+        {/* Individual Service Components */}
+        <div className="service-details-container">
+          <SoftwareDevelopment />
+          <CloudInfrastructure />
+          <Cybersecurity />
+          <ITConsulting />
+          <WebHosting />
+          <Branding />
+        </div>
       </div>
     </section>
   )
 }
+
 

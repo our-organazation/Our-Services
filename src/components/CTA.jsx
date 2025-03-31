@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="cta-section">
+    <section className="cta-section" id="about">
       <div className="container">
         <div className="cta-content">
           <div className="cta-text">
@@ -67,7 +67,7 @@ export default function CTA() {
             </ul>
           </div>
           <div className="cta-image">
-            <img src="/placeholder.svg" alt="IT Team" className="rounded-lg" />
+            <img src="https://i.pinimg.com/474x/e2/cc/47/e2cc47880320f5a0eaa2c7384774e899.jpg" alt="IT Team" className="rounded-lg" />
           </div>
         </div>
       </div>

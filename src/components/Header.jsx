@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 
 export default function Header() {
@@ -12,7 +10,7 @@ export default function Header() {
           <div className="logo">
             <a href="/">
               <span className="logo-text">
-                Future<span className="logo-accent">Vision IT</span>
+                Tech<span className="logo-accent">Vision</span>
               </span>
             </a>
           </div>
@@ -20,32 +18,32 @@ export default function Header() {
           <nav className={`main-nav ${isMenuOpen ? "active" : ""}`}>
             <ul className="nav-list">
               <li>
-                <a href="/" className="nav-link">
+                <a href="#home" className="nav-link">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/about" className="nav-link">
+                <a href="#about" className="nav-link">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/services" className="nav-link">
+                <a href="#services" className="nav-link">
                   Services
                 </a>
               </li>
               <li>
-                <a href="/packages" className="nav-link">
+                <a href="#packages" className="nav-link">
                   Packages
                 </a>
               </li>
               <li>
-                <a href="/projects" className="nav-link">
+                <a href="#projects" className="nav-link">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="/contact" className="nav-link">
+                <a href="#contact" className="nav-link">
                   Contact
                 </a>
               </li>
@@ -53,7 +51,7 @@ export default function Header() {
           </nav>
 
           <div className="header-actions">
-            <a href="/contact" className="btn btn-primary btn-sm">
+            <a href="#contact" className="btn btn-primary btn-sm">
               Get Started
             </a>
             <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
