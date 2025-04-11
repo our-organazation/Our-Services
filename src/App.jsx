@@ -17,14 +17,14 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Stats />
+        {/* <Stats /> */}
         <Services />
         <Process />
         <Packages />
         <Projects />
         <CTA />
         <Contact />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
       <Footer />
     </div>
