@@ -36,7 +36,7 @@ export default function Projects() {
       image: "/placeholder.svg",
       description:
         "Comprehensive ",
-      link: "https://example.com/project2",
+      link: "https://car-care-automative.vercel.app/",
     },
     {
       id: 3,

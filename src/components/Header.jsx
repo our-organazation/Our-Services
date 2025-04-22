@@ -1,7 +1,12 @@
 import { useState } from "react"
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsMenuOpen(false)
+  }
 
   return (
     <header className="site-header">
@@ -18,32 +23,32 @@ export default function Header() {
           <nav className={`main-nav ${isMenuOpen ? "active" : ""}`}>
             <ul className="nav-list">
               <li>
-                <a href="#home" className="nav-link">
+                <a href="#home" className="nav-link" onClick={closeMenu}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="nav-link">
+                <a href="#about" className="nav-link" onClick={closeMenu}>
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#services" className="nav-link">
+                <a href="#services" className="nav-link" onClick={closeMenu}>
                   Services
                 </a>
               </li>
               <li>
-                <a href="#packages" className="nav-link">
+                <a href="#packages" className="nav-link" onClick={closeMenu}>
                   Packages
                 </a>
               </li>
               <li>
-                <a href="#projects" className="nav-link">
+                <a href="#projects" className="nav-link" onClick={closeMenu}>
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" className="nav-link">
+                <a href="#contact" className="nav-link" onClick={closeMenu}>
                   Contact
                 </a>
               </li>

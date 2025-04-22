@@ -135,7 +135,8 @@ export default function Contact() {
               </div>
               <div className="contact-card-content">
                 <h3>Call Us</h3>
-                <p>+27 (83) 123-4567</p>
+                <p>+27 (74) 476-6603</p>
+                <p>+27 (65) 972-6685</p>
                 <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
               </div>
             </div>
