@@ -15,7 +15,7 @@ export default function Header() {
           <div className="logo">
             <a href="/">
               <span className="logo-text">
-                Tech<span className="logo-accent">Vision</span>
+                Future<span className="logo-accent">Vision</span>
               </span>
             </a>
           </div>

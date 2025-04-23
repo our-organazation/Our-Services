@@ -17,6 +17,8 @@
 import React from "react";
 import greenhaven from '../assets/image.png';
 import salon from '../assets/salon.png';
+import auto from '../assets/auto.png';
+import health from '../assets/health.png';
 export default function Projects() {
   // Project data
   const projects = [
@@ -33,7 +35,7 @@ export default function Projects() {
       id: 2,
       title: "Auto",
       category: "Software Solution",
-      image: "/placeholder.svg",
+      image: auto,
       description:
         "Comprehensive ",
       link: "https://car-care-automative.vercel.app/",
@@ -45,16 +47,16 @@ export default function Projects() {
       image: greenhaven,
       description:
         "A complex property search and filtering interface.",
-      link: "https://green-haven-residences.vercel.app/",
+      link: "https://green-haven-residence.vercel.app/",
     },
     {
       id: 4,
-      title: "Healthcare Management System",
+      title: "Healthcare Center Management System",
       category: "Software Solution",
-      image: "/placeholder.svg",
+      image: health,
       description:
-        "Comprehensive healthcare management system for patient records, appointment scheduling, and billing.",
-      link: "https://example.com/project2",
+        "Comprehensive healthcare center system for patient records, appointment scheduling, and billing.",
+      link: "https://health-connect-y6w5.vercel.app/",
     },
   ]
 
